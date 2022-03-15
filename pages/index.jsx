@@ -20,7 +20,7 @@ export default function Home() {
             >
               <div className="px-2 mb-12">
                 <img
-                  src="./assets/milad.jpg"
+                  src="./assets/milad.webp"
                   alt="Profile Picture"
                   className="w-48 mx-auto mb-2 rounded-full"
                 />
