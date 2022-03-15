@@ -67,7 +67,7 @@ export default function Home() {
                   className="inline w-6 mr-4"
                   alt="Egg Icon"
                 />
-                <span>Born on 27th of May 2000</span>
+                <span>Born on 16th of March 1994</span>
               </div>
               <div className="flex items-center my-3">
                 <img
@@ -95,7 +95,7 @@ export default function Home() {
                   GitHub
                 </a>
               </div>
-              <div className="flex items-center my-3">
+              {/* <div className="flex items-center my-3">
                 <img
                   src="./assets/logo-stackoverflow.svg"
                   className="inline w-6 mr-4"
@@ -104,7 +104,7 @@ export default function Home() {
                 <a href="#" target="_blank" rel="noopener noreferrer">
                   StackOverflow
                 </a>
-              </div>
+              </div> */}
               <div className="flex items-center my-3">
                 <img
                   src="./assets/logo-linkedin.svg"
@@ -119,7 +119,7 @@ export default function Home() {
                   LinkedIn
                 </a>
               </div>
-              <div className="flex items-center my-3">
+              {/* <div className="flex items-center my-3">
                 <img
                   src="./assets/logo-twitter.svg"
                   className="inline w-6 mr-4"
@@ -128,8 +128,8 @@ export default function Home() {
                 <a href="#" target="_blank" rel="noopener noreferrer">
                   @twitter_handle
                 </a>
-              </div>
-              <div className="flex items-center my-3">
+              </div> */}
+              {/* <div className="flex items-center my-3">
                 <img
                   src="./assets/logo-codepen.svg"
                   className="inline w-6 mr-4"
@@ -148,7 +148,7 @@ export default function Home() {
                 <a href="#" target="_blank" rel="noopener noreferrer">
                   Portfolio
                 </a>
-              </div>
+              </div> */}
             </div>
 
             <div className="px-2 mb-12 text-lg font-light">
@@ -158,47 +158,34 @@ export default function Home() {
                   <label htmlFor="js-skill">JavaScript</label>
                   <progress id="js-skill" max="100" value="70"></progress>
                 </li>
-                <li>
-                  <label htmlFor="vue-skill">Vue / Vuex</label>
-                  <progress id="vue-skill" max="100" value="80"></progress>
-                </li>
+
                 <li>
                   <label htmlFor="react-skill">React</label>
                   <progress id="react-skill" max="100" value="66"></progress>
+                </li>
+                <li>
+                  <label htmlFor="reactNative-skill">React Native</label>
+                  <progress
+                    id="reactNative-skill"
+                    max="100"
+                    value="50"
+                  ></progress>
                 </li>
                 <li>
                   <label htmlFor="nextjs-skill">Next.js</label>
                   <progress id="nextjs-skill" max="100" value="72"></progress>
                 </li>
                 <li>
-                  <label htmlFor="eleventy-skill">Eleventy</label>
+                  <label htmlFor="eleventy-skill">Tailwind CSS</label>
                   <progress id="eleventy-skill" max="100" value="66"></progress>
                 </li>
-                <li>
-                  <label htmlFor="node-skill">Node / Express.js</label>
-                  <progress id="node-skill" max="100" value="45"></progress>
-                </li>
+
                 <li>
                   <label htmlFor="css-skill">SCSS</label>
                   <progress id="css-skill" max="100" value="75"></progress>
                 </li>
-                <li>
-                  <label htmlFor="design-skill">Inkscape / Figma</label>
-                  <progress id="design-skill" max="100" value="62"></progress>
-                </li>
-                <li>
-                  <div>Infrastructure / Hosting / DB</div>
-                  <p className="leading-8">
-                    <span className="px-3 bg-gray-300 rounded-xl">AWS</span>
-                    <span className="px-3 bg-gray-300 rounded-xl">Vercel</span>
-                    <span className="px-3 bg-gray-300 rounded-xl">Heroku</span>
-                    <span className="px-3 bg-gray-300 rounded-xl">
-                      DynamoDB
-                    </span>
-                    <span className="px-3 bg-gray-300 rounded-xl">MongoDB</span>
-                    <span className="px-3 bg-gray-300 rounded-xl">SQLite</span>
-                  </p>
-                </li>
+
+                <li></li>
               </ul>
             </div>
 
@@ -210,10 +197,10 @@ export default function Home() {
 
             <div className="px-2 mb-12 text-lg font-light">
               <h2 className="mb-4 text-xl font-semibold">Languages</h2>
-              <h3 className="font-semibold">German</h3>
+              <h3 className="font-semibold">Persian</h3>
               <p>Native</p>
               <h3 className="font-semibold">English</h3>
-              <p>Fluent</p>
+              <p>Intermediate</p>
             </div>
           </div>
           <div className="w-full p-12 content">
@@ -222,10 +209,9 @@ export default function Home() {
               <p>
                 I'm a self-taught web developer focusing on the core web
                 fundamentals - HTML, CSS and JS. I'm experienced in frontend
-                frameworks like Vue and React and static site generators like
-                Next.js and Eleventy. I write SCSS or use CSS frameworks like
-                TailwindCSS, Bootstrap or Bulma to speed up styling of my
-                projects.
+                frameworks like React and static site generators like Next.js .
+                I write SCSS or use CSS frameworks like TailwindCSS, to speed up
+                styling of my projects.
               </p>
               <p>
                 I am highly motivated in expanding my horizons day by day for
@@ -236,13 +222,13 @@ export default function Home() {
             <div id="experience" className="prose">
               <h2 className="section-headline">Experience</h2>
               <div>
-                <h3>Example Inc</h3>
+                <h3>Nakhll - Iran </h3>
                 <section className="mb-6">
-                  <div className="mb-2 italic lg:inline-block lg:w-3/12 lg:align-top">
-                    Jul.&nbsp;2019:
+                  <div className="mb-2 italic lg:inline-block lg:w-4/12 lg:align-top">
+                    (2021 untill now -Full time) :
                   </div>
                   <div className="w-full lg:inline-block lg:w-8/12">
-                    Fullstack Developer
+                    Front-End Developer
                   </div>
                 </section>
                 <section className="mb-6">
@@ -250,13 +236,13 @@ export default function Home() {
                     Task:
                   </div>
                   <div className="w-full lg:inline-block lg:w-8/12">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Creat MarcketPlace availabel at{" "}
+                    <a className="text-blue-500" href="https://nakhll.com/">
+                      www.Nakhll.com
+                    </a>
                   </div>
                 </section>
-                <section className="mb-6">
+                {/* <section className="mb-6">
                   <div className="mb-2 italic lg:inline-block lg:w-3/12 lg:align-top">
                     Description:
                   </div>
@@ -284,11 +270,11 @@ export default function Home() {
                     </span>
                     <span className="px-3 bg-gray-300 rounded-xl">Jira</span>
                   </div>
-                </section>
+                </section> */}
               </div>
             </div>
-            <hr className="mt-8 mb-12" />
-            <div id="projects" className="prose">
+            {/* <hr className="mt-8 mb-12" /> */}
+            {/* <div id="projects" className="prose">
               <h2 className="section-headline">Projects</h2>
               <div className="mb-16">
                 <h3 id="chrisko-headline">Chrisko.io</h3>
@@ -363,7 +349,7 @@ export default function Home() {
                   </div>
                 </section>
               </div>
-            </div>
+            </div> */}
             <hr className="mt-8 mb-12" />
             <div id="projects" className="prose">
               <h2 className="section-headline">Expand my skills</h2>
@@ -372,19 +358,9 @@ export default function Home() {
                   I'd like to expand my skills and knowledge in several fields
                 </h4>
                 <ul>
+                  <li>Three.js</li>
                   <li>TypeScript</li>
-                  <li>Testing, e.g. with Mocha, Chai, Jest</li>
-                  <li>Web Components, e.g. with StencilJS, LitElement</li>
-                  <li>
-                    Prototyping and Wireframing, e.g. with Figma, Adobe XD
-                  </li>
-                  <li>Scalable Vector Graphics</li>
-                  <li>Databases</li>
-                  <li>Mobile development</li>
-                  <li>
-                    Backend development, e.g. learn additional language like Go,
-                    Python, PHP, Ruby, Java, Rust
-                  </li>
+                  <li>Testing, e.g. with Jest</li>
                 </ul>
               </div>
             </div>
