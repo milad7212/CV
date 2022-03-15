@@ -199,8 +199,8 @@ export default function Home() {
 
               <div className="px-2 mb-12 text-lg font-light">
                 <h2 className="mb-4 text-xl font-semibold">Education</h2>
-                <h3 className="font-semibold">BSc Computer Science</h3>
-                <p>2016 - 2019 University of London</p>
+                <h3 className="font-semibold">Civil engineer</h3>
+                <p>2013 - 2017 Bahonar University of Kerman</p>
               </div>
 
               <div className="px-2 mb-12 text-lg font-light">
