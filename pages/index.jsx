@@ -245,7 +245,12 @@ export default function Home() {
                     </div>
                     <div className="w-full lg:inline-block lg:w-8/12">
                       Creat MarcketPlace availabel at{" "}
-                      <a className="text-blue-500" href="https://nakhll.com/">
+                      <a
+                        className="text-blue-500"
+                        target="_blank"
+                        rel="noreferrer"
+                        href="https://nakhll.com/"
+                      >
                         www.Nakhll.com
                       </a>
                     </div>
@@ -358,6 +363,25 @@ export default function Home() {
                 </section>
               </div>
             </div> */}
+
+              <hr className="mt-8 mb-12" />
+              <div id="projects" className="prose">
+                <h2 className="section-headline">Certificates</h2>
+                <div className="mb-16">
+                  <ul>
+                    <li>
+                      <a
+                        target="_blank"
+                        rel="noreferrer"
+                        className="text-blue-500"
+                        href="https://maktabkhooneh.org/certificates/MK-YGRBL4/?print=True"
+                      >
+                        React JS ,from maktabkhooneh
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
               <hr className="mt-8 mb-12" />
               <div id="projects" className="prose">
                 <h2 className="section-headline">Expand my skills</h2>
