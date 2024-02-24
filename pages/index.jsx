@@ -79,7 +79,7 @@ export default function Home() {
                     className="inline w-6 mr-4"
                     alt="Two Persons Icon"
                   />
-                  <span>Singel</span>
+                  <span>Married</span>
                 </div>
               </div>
 
@@ -255,7 +255,6 @@ export default function Home() {
                       </a>
                     </div>
                   </section>
-              
                 </div>
 
                 <div>
@@ -273,11 +272,9 @@ export default function Home() {
                       Task:
                     </div>
                     <div className="w-full lg:inline-block lg:w-8/12">
-                    I am a front-end developer for an asset management system.{" "}
-                     
+                      I am a front-end developer for an asset management system.{" "}
                     </div>
                   </section>
-                
                 </div>
               </div>
               {/* <hr className="mt-8 mb-12" /> */}
@@ -378,17 +375,26 @@ export default function Home() {
               </div>
               <hr className="mt-8 mb-12" />
               <div id="projects" className="prose">
-                <h2 className="section-headline">Expand my skills</h2>
+                <h2 className="section-headline">My Website</h2>
                 <div className="mb-16">
-                  <h4 id="expand-knowledge-headline">
-                    `
-                    {`I'd like to expand my skills and knowledge in several fields`}
-                    `
-                  </h4>
                   <ul>
-                    <li>Three.js</li>
-                   
-                    <li>Testing, e.g. with Jest</li>
+                    <li className="mt-2">
+                      {" "}
+                      <a
+                        target="_blank"
+                        rel="noreferrer"
+                        className="text-blue-500 font-bold"
+                        href=" https://readyfortest.ir/"
+                      >
+                        Readyfortest
+                      </a>
+                    </li>
+
+                    <li className="mt-2">
+                      I developed this website as a full stack application using
+                      the Next.js and Express frameworks. The website helps
+                      engineers pass the exams.
+                    </li>
                   </ul>
                 </div>
               </div>
