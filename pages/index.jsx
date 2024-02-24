@@ -160,31 +160,31 @@ export default function Home() {
                 <ul className="list-none">
                   <li>
                     <label htmlFor="js-skill">JavaScript</label>
-                    <progress id="js-skill" max="100" value="70"></progress>
+                    <progress id="js-skill" max="100" value="80"></progress>
                   </li>
 
                   <li>
                     <label htmlFor="react-skill">React</label>
-                    <progress id="react-skill" max="100" value="66"></progress>
+                    <progress id="react-skill" max="100" value="90"></progress>
                   </li>
                   <li>
-                    <label htmlFor="reactNative-skill">React Native</label>
+                    <label htmlFor="reactNative-skill">TypeScript</label>
                     <progress
                       id="reactNative-skill"
                       max="100"
-                      value="50"
+                      value="70"
                     ></progress>
                   </li>
                   <li>
                     <label htmlFor="nextjs-skill">Next.js</label>
-                    <progress id="nextjs-skill" max="100" value="72"></progress>
+                    <progress id="nextjs-skill" max="100" value="80"></progress>
                   </li>
                   <li>
                     <label htmlFor="eleventy-skill">Tailwind CSS</label>
                     <progress
                       id="eleventy-skill"
                       max="100"
-                      value="66"
+                      value="90"
                     ></progress>
                   </li>
 
@@ -255,35 +255,7 @@ export default function Home() {
                       </a>
                     </div>
                   </section>
-                  {/* <section className="mb-6">
-                  <div className="mb-2 italic lg:inline-block lg:w-3/12 lg:align-top">
-                    Description:
-                  </div>
-                  <div className="w-full lg:inline-block lg:w-8/12">
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
-                  </div>
-                </section>
-                <section className="mb-6">
-                  <div className="mb-2 italic lg:inline-block lg:w-3/12 lg:align-top">
-                    Tools:
-                  </div>
-                  <div className="w-full lg:inline-block lg:w-8/12">
-                    <span className="px-3 bg-gray-300 rounded-xl">Vue</span>
-                    <span className="px-3 bg-gray-300 rounded-xl">Vuex</span>
-                    <span className="px-3 bg-gray-300 rounded-xl">
-                      Bootstrap
-                    </span>
-                    <span className="px-3 bg-gray-300 rounded-xl">Docker</span>
-                    <span className="px-3 bg-gray-300 rounded-xl">Git</span>
-                    <span className="px-3 bg-gray-300 rounded-xl">
-                      Bitbucket
-                    </span>
-                    <span className="px-3 bg-gray-300 rounded-xl">Jira</span>
-                  </div>
-                </section> */}
+              
                 </div>
 
                 <div>
@@ -415,7 +387,7 @@ export default function Home() {
                   </h4>
                   <ul>
                     <li>Three.js</li>
-                    <li>TypeScript</li>
+                   
                     <li>Testing, e.g. with Jest</li>
                   </ul>
                 </div>
