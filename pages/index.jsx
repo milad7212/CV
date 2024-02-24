@@ -233,7 +233,7 @@ export default function Home() {
                   <h3>Nakhll - Iran </h3>
                   <section className="mb-6">
                     <div className="mb-2 italic lg:inline-block lg:w-4/12 lg:align-top">
-                      (2021 untill now -Full time) :
+                      (2020 untill 2023 -Full time) :
                     </div>
                     <div className="w-full lg:inline-block lg:w-8/12">
                       Front-End Developer
@@ -284,6 +284,28 @@ export default function Home() {
                     <span className="px-3 bg-gray-300 rounded-xl">Jira</span>
                   </div>
                 </section> */}
+                </div>
+
+                <div>
+                  <h3>National Iranian Copper Industries Co. - Iran </h3>
+                  <section className="mb-6">
+                    <div className="mb-2 italic lg:inline-block lg:w-4/12 lg:align-top">
+                      (2023 untill now -Full time) :
+                    </div>
+                    <div className="w-full lg:inline-block lg:w-8/12">
+                      Front-End Developer
+                    </div>
+                  </section>
+                  <section className="mb-6">
+                    <div className="mb-2 italic lg:inline-block lg:w-3/12 lg:align-top">
+                      Task:
+                    </div>
+                    <div className="w-full lg:inline-block lg:w-8/12">
+                    I am a front-end developer for an asset management system.{" "}
+                     
+                    </div>
+                  </section>
+                
                 </div>
               </div>
               {/* <hr className="mt-8 mb-12" /> */}
